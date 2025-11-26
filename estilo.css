@@ -1,0 +1,197 @@
+.FUNDO {
+   background-color: black;
+}
+
+* {box-sizing: border-box} /*serve para simplificar o cálculo do tamanho de um elemento*/
+
+
+
+/* Campos de entrada de largura total */
+/*Aplica os estilos a todos os elementos <input>*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fffdfd;
+}
+/*Aplica os estilos a todos os elementos <input>*/
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+/* serve para inserir uma linha horizontal na página*/
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Defina um estilo para todos os botões */
+button {
+  background-color: #daa520;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+   border-style: solid; /* É necessário definir um estilo para a borda aparecer */
+  border-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Estilos extras para o botão de cancelar */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #FFFFC5;
+}
+
+/* Posicione os botões de cancelar e cadastrar-se de forma flutuante e adicione largura igual a eles */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Adiciona preenchimento aos elementos do contêiner */
+.container {
+  padding: 50px;
+  background-color:  #0e0d0a;
+  color: #fffdfd;
+}
+
+/* Limpar pontos flutuantes */
+.clearfix::after {
+  display: flex;
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+@media(max-width:600px){
+    body{background-color: red;}
+    .header{font-size: 3rem;}
+    .conteudo{display: flex;flex-direction: column;}
+}
+
+/*aqui mexe nas funções da logo*/
+.fundo{
+  display: flex;
+  width: 100%;
+  height: 200%;
+}
+ 
+/*mexo no botao voltar*/
+.voltar{
+  justify-content: center;
+  align-self: center;
+  color: #f9b42a;
+  background-color: #0f0d07;
+  font-size: 30px;
+}
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor-texto: rgb(255, 255, 255);
+    --cor-secundaria: rgb(0, 0, 0);
+}
+
+.segundo_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    /* border: 10px solid rgb(0, 0, 0); */
+    width: 100%;
+    /* height: 200px; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logotipo {
+    min-height: 50px;
+    width: auto;
+}
+
+.linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}
+
+.botoes_escolhas {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--cor-texto);
+    padding: 10px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: black;
+    height: 30px;
+
+}
+
+.botoes_cabecalho2 a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 85px;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+
+}
+.botoes_cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.botoes_cabecalho a {
+    /* margin-right: 10px; */
+    text-decoration: none;
+    color: var(--cor-texto);
+    /* padding: 115px; */
+    /* justify-content: center;
+    text-align: center; */
+    /* width: 90%; */
+}
+.barra_input{
+    width: 90px;
+    border-style: ridge;
+    border-color:black;
+    border-radius: 30px
+}
+.barra{
+    display: flex;
+    
+    flex: 10%;
+    
+    border-color: black;
+}
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
+}
+
