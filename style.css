@@ -506,7 +506,7 @@
   border-radius: 50%;
   box-shadow: -100px 20px 5px #fff,
   -100px 20px 10px #fff;
-  margin: 0 1vw;
+  margin: 0 1rem;
   animation:animateNeve calc(75s / var(--i) ) linear infinite ;
 
 }
