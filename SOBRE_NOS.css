@@ -1,0 +1,504 @@
+    .FUNDO {
+        background-color: #F6DE7E;
+    }
+
+    * {
+        margin: 0px;
+    }
+
+    :root {
+        --cor-texto: rgb(255, 255, 255);
+        --cor-secundaria: rgb(0, 0, 0);
+    }
+
+    .segundo_cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        /* border: 10px solid rgb(0, 0, 0); */
+        width: 100%;
+        /* height: 200px; */
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .logotipo {
+        min-height: 50px;
+        width: auto;
+    }
+
+    .linha_dourada {
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+    }
+
+    .botoes_escolhas {
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        color: var(--cor-texto);
+        padding: 10px;
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        background-color: black;
+        height: 30px;
+
+    }
+
+    .botoes_cabecalho2 a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        padding: 85px;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+
+    }
+    .botoes_cabecalho{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .botoes_cabecalho a {
+        /* margin-right: 10px; */
+        text-decoration: none;
+        color: var(--cor-texto);
+        /* padding: 115px; */
+        /* justify-content: center;
+        text-align: center; */
+        /* width: 90%; */
+    }
+    .primeiras_roupas {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .segundas_roupas {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .terceiras_roupas {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .primeiros_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .segundos_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .terceiros_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_oculos {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_relogio {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_cintos {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .tres_primeiras_roupas {
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .tres_primeiras_roupas:hover {
+        transform: scale(1.1);
+    
+    }
+
+    .tres_segundas_roupas {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .tres_segundas_roupas:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .tres_terceiras_roupas {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    } 
+
+    .tres_terceiras_roupas:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .acessorios_etc {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .acessorios_etc:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .colares {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .colares:hover {
+        transform: scale(1.1);
+    
+    }
+
+    .bolsa {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .bolsa:hover {
+        transform: scale(1.1);
+    
+    }
+
+    .OCULOS {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .OCULOS:hover {
+        transform: scale(1.1);
+    
+    }
+
+    .RELOGIO {
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .RELOGIO:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .CINTOS {
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .CINTOS:hover {
+        transform: scale(1.1);
+        
+    }
+    body {
+        background-image: url('img_girl.jpg');
+    }
+    .imagens_home{
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+    .imagens{
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+    }
+    .imagens:hover{
+        transform: scale(1.1);
+    }
+
+    .cabecalho{ 
+        background-image: url(./imagens/Captura\ de\ tela\ 2025-10-30\ 170859.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        height: 150px;
+        padding: 20px;
+        text-align: center;
+        border: 30px solid rgb(0, 0, 0);
+        padding: 10px 10px;
+    }
+    .barra_input{
+        width: 500px;
+        border-style: ridge;
+        border-color:black;
+        border-radius: 20px
+    }
+    .barra{
+        display: flex;
+        
+        flex: 1%;
+        
+        border-color: black;
+    }
+    .carrinho{
+        display: flex;
+        justify-content: left;
+    }
+    .imagens{
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .cabecalho2{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+    align-items: center;
+    padding: 20px;
+    }
+    .carrossel{
+        width: 100%;
+        overflow-x: auto;
+        margin: 50px auto;
+        display: flex;
+        gap: 3em;
+        scroll-behavior: smooth;
+        position: relative;
+        scroll-snap-type: x mandatory;
+        overflow: hidden;
+        height: fit-content;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+    }
+
+
+    .carrossel::-webkit-scrollbar{
+        display: none;
+    }
+
+    .carrossel::scroll-button(right) {
+        content: '⮕';
+        border: none;
+        background-color: var(--cor-texto);
+        color: black;
+        height: 55px;
+        width: 60px;
+        border-radius: 50%;
+        padding-bottom: 1px;
+        cursor: pointer;
+        position: absolute;
+        top: 75%;
+        right: 0;
+
+    }
+    .carrossel::scroll-button(right):disabled {
+        opacity: 0.5;
+    }
+    .carrossel::scroll-button(left) {
+        content: '⬅';
+        border: none;
+        background-color: var(--cor-texto);
+        color: black;
+        height: 55px;
+        width: 60px;
+        border-radius: 50%;
+        padding-bottom: 1px;
+        cursor: pointer;
+        position: absolute;
+        top: 75%;
+        left: 0;
+    }
+    .carrossel::scroll-button(left):disabled {
+    opacity: 0.5;
+    }
+
+    .card{
+        display: flex;
+        scroll-snap-align: start;
+        flex: 0 0 650px;
+        height: 340px;
+        background-color: var(--cor-secundaria);
+        text-align: center;
+        align-content: center;
+        align-items: center;
+       
+    }
+    .TEXTO{
+        margin: 0 15px 0;
+        text-align: center;
+        background: #fff;
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .25);
+        border-radius: 8px;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        color: #797b7c;
+        }
+    .titulo2{
+        text-align: center;
+    }
+    .CARRINHO_BOTAO{
+    color: #fff;
+    color: black;
+    }
+    @media(max-width:600px){
+        body{background-color: red;}
+        .segundo_cabecalho{font-size: 3rem;}
+        .primeiras_roupas{display: flex;flex-direction: column;}
+        .terceiras_roupas{display: flex;flex-direction: column;}
+        .segundas_roupas{display: flex;flex-direction: column;}
+        .segundo_cabecalho{display: flex;flex-direction: column;}
+        .botoes_escolhas{display: flex;flex-direction: column;}
+    }
+
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
+}
+.linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}
+
+.tele_inline{
+    display: flex;
+    align-items: center;
+    margin-left:23vw ;/* muda a minha foto para a esquerda*/
+    gap: 2vw;
+    margin-top: 20px;
+}
+    .estrela{
+        padding-left: 0;
+        display: flex;
+
+    gap: 5px;
+    }
+
+    .star{
+        list-style-type: none;/*faz os pontos de topicos desaparecer*/
+        cursor: pointer;/* quando vc aproxima o cursor ele aparece em mao*/
+        color: #f5f4ee;
+        font-size: 60px;
+        /* width: 50px;tamanho */
+    }
+
+    .star::before{
+        content:"\2605";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
+        cor cheia*/
+        /*2065 codigo do formato da estrela cor cheia *before* PROFESSOR VAI ME EXPLICAR*/
+        font-size: 90px;
+    }
+
+    .star.ativo ~ .star::before{ /*MINHA PRIMEIRA ESTRELA VAI ESTAR PREENCHIDA    
+        STAR ATIVO significa que minha 1 estrela vai estar preenchida
+        STAR BEFORE significa que minha estrela vai estar vazia*/
+        content:"\2606";/*contorno da estrela
+        /*sobre o meu ativo com ~ no meio (SERVE PARA QUANDO EU CLILCAR NO ELEMENTO 3 VAI ATE O 3 E NÃO MUDA MINHA ESTRELA ELA PASSA DE 2605 COR CHEIA PARA 2606 COR VAZIA*/
+        
+        color: #f5f5f0;
+
+    }
+
+    .estrela:hover .star::before{ /* significa que quando eu passar o meu mouse mause em cima ele apareça a mão para clicar e minhas estrelas vão estar prenchidas*/
+        content:"\2605"; /*cor cheia*/
+    }
+
+    .star:hover ~ .star::before{
+        content:"\2606"; /* cor vazia*/
+        color: rgb(255, 234, 118);
+
+    }
+.estelar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 35px;
+}
+/* h1{
+    margin-left: 60px;
+} */

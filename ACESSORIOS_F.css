@@ -1,0 +1,201 @@
+    .FUNDO {
+        background-color: #F6DE7E;
+    }
+
+    * {
+        margin: 0px;
+    }
+
+    :root {
+        --cor-texto: rgb(255, 255, 255);
+        --cor-secundaria: rgb(0, 0, 0);
+    }
+
+    .segundo_cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /* border: 10px solid rgb(0, 0, 0); */
+        width: 100%;
+        /* height: 200px; */
+    }
+
+    .cabecalho2 {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-secundaria);
+        align-items: center;
+        padding: 20px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .logotipo {
+        min-height: 50px;
+        width: auto;
+    }
+
+    .linha_dourada {
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+    }
+
+    .botoes_escolhas {
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        color: var(--cor-texto);
+        padding: 10px;
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        background-color: black;
+        height: 30px;
+
+    }
+
+    .botoes_cabecalho2 a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        padding: 85px;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+
+    }
+
+    .botoes_cabecalho {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .botoes_cabecalho a {
+        /* margin-right: 10px; */
+        text-decoration: none;
+        color: var(--cor-texto);
+        /* padding: 115px; */
+        /* justify-content: center;
+        text-align: center; */
+        /* width: 90%; */
+    }
+
+    .primeiros_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .segundos_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .terceiros_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_oculos {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_etc {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .acessorios_etc:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .colares {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .colares:hover {
+        transform: scale(1.1);
+    
+    }
+
+    .bolsa {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .bolsa:hover {
+        transform: scale(1.1);
+    
+    }
+    .barra_input{
+        width: 500px;
+        border-style: ridge;
+        border-color:black;
+        border-radius: 20px
+    }
+    .barra{
+        display: flex;
+        
+        flex: 1%;
+        
+        border-color: black;
+    }
+    .carrinho{
+        display: flex;
+        justify-content: left;
+    }
+
+  .cabecalho2{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+    align-items: center;
+    padding: 20px;
+    }
+
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
+}
+.linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}
