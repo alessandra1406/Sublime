@@ -414,15 +414,7 @@
     color: #fff;
     color: black;
     }
-    @media(max-width:600px){
-        body{background-color: red;}
-        .segundo_cabecalho{font-size: 3rem;}
-        .primeiras_roupas{display: flex;flex-direction: column;}
-        .terceiras_roupas{display: flex;flex-direction: column;}
-        .segundas_roupas{display: flex;flex-direction: column;}
-        .segundo_cabecalho{display: flex;flex-direction: column;}
-        .botoes_escolhas{display: flex;flex-direction: column;}
-    }
+
 
 .container-inline img,
 .container-inline span{

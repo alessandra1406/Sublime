@@ -58,7 +58,7 @@
         margin-right: 10px;
         text-decoration: none;
         color: var(--cor-secundaria);
-        padding: 85px;
+        
         justify-content: center;
         text-align: center;
         width: 80%;
@@ -99,6 +99,7 @@
 
     .primeiros_acessorios {
         display: flex;
+        flex-wrap: wrap;
         padding: 20px;
         gap: 4%;
     }
@@ -414,15 +415,7 @@
     color: #fff;
     color: black;
     }
-    @media(max-width:600px){
-        body{background-color: red;}
-        .segundo_cabecalho{font-size: 3rem;}
-        .primeiras_roupas{display: flex;flex-direction: column;}
-        .terceiras_roupas{display: flex;flex-direction: column;}
-        .segundas_roupas{display: flex;flex-direction: column;}
-        .segundo_cabecalho{display: flex;flex-direction: column;}
-        .botoes_escolhas{display: flex;flex-direction: column;}
-    }
+    
 
 .container-inline img,
 .container-inline span{
@@ -588,3 +581,15 @@ p{
 /* h1{
     margin-left: 60px;
 } */
+
+@media(max-width:600px){
+        body{background-color: red;}
+        .segundo_cabecalho{font-size: 3rem;}
+        .primeiras_roupas{display: flex;flex-direction: column;}
+        .terceiras_roupas{display: flex;flex-direction: column;}
+        .segundas_roupas{display: flex;flex-direction: column;}
+        .segundo_cabecalho{display: flex;flex-direction: column;}
+        .botoes_escolhas{display: flex;flex-direction: column;}
+    }
+    
+

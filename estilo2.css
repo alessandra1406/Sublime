@@ -460,11 +460,8 @@ body {
 }
 
 /* Adicione media queries para responsividade */
-@media (max-width: 768px) {
-    .cart-container {
-        flex-direction: column;
-    }
-}
+
+
 .cabecalho {
     background-image: url(./imagens/Capturadetela2025-10-30170859.png);
     background-size: cover;
