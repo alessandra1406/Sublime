@@ -313,15 +313,6 @@
         display: flex;
         justify-content: left;
     }
-    .imagens{
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
 
     .cabecalho2{
     display: flex;
@@ -408,72 +399,6 @@
         align-items: center;
         color: #797b7c;
         }
-    .titulo2{
-        text-align: center;
-    }
-    .CARRINHO_BOTAO{
-    color: #fff;
-    color: black;
-    }
-    
-
-.container-inline img,
-.container-inline span{
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-.container-inline img{
-  width: 25px;
-  margin-right: 5px;  
-}
-.linha_dourada {
-    display: flex;
-    justify-content: space-around;
-    height: 120px;
-    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
-}
-/*NEVE*/
-/*aqui faze a parte da neve*/
-.container .neve{
-  display: flex;
-
-}
- /*cor da neve e tamanhos*/
-.container .neve span{
-  
-  min-width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: -100px 20px 5px #fff,
-  -100px 20px 10px #fff;
-  margin: 0 1vw;
-  animation:animateNeve calc(75s / var(--i) ) linear infinite ;
-
-}
-
-/*animaçao da neve*/
-  
-@keyframes animateNeve{
-  0%{
-    transform: translateY(-10vh);
-  }
-  100%{
-     transform: translateY(100vh);
-  }
-}
-
-.container .neve span:nth-of-type(even) {
-  min-width: 8px ;
-  height: 8px;
-
-}
-/* .carrossel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .card figcaption{
     background-color: var(--cor-secundaria);
@@ -484,48 +409,22 @@
     bottom: 0;
     left: 0; */
 }
-
-/*aqui faze a parte da neve*/
-.container, .neve{
-  display: flex;
-
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
 }
- /*cor da neve e tamanhos*/
-.container, .neve span{
-  
-  min-width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: -100px 20px 5px #fff,
-  -100px 20px 10px #fff;
-  margin: 0 12px;
-  animation:animateNeve calc(75s / var(--i) ) linear infinite ;
-
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
 }
 
-/*animaçao da neve*/
-  
-@keyframes animateNeve{
-  0%{
-    transform: translateY(-10vh);
-  }
-  100%{
-     transform: translateY(100vh);
-  }
-}
-
-.container, .neve span:nth-of-type(even) {
-  min-width: 8px ;
-  height: 8px;
-
-}
-.tele_inline{
+ .linha_dourada {
     display: flex;
-    align-items: center;
-    margin-left:23vw ;/* muda a minha foto para a esquerda*/
-    gap: 2vw;
-    margin-top: 20px;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
     .estrela{
         padding-left: 0;
