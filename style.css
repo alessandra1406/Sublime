@@ -79,209 +79,6 @@
         text-align: center; */
         /* width: 90%; */
     }
-    .primeiras_roupas {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .segundas_roupas {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .terceiras_roupas {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .primeiros_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .segundos_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .terceiros_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_oculos {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_relogio {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_cintos {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .tres_primeiras_roupas {
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .tres_primeiras_roupas:hover {
-        transform: scale(1.1);
-    
-    }
-
-    .tres_segundas_roupas {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .tres_segundas_roupas:hover {
-        transform: scale(1.1);
-        
-    }
-
-    .tres_terceiras_roupas {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    } 
-
-    .tres_terceiras_roupas:hover {
-        transform: scale(1.1);
-        
-    }
-
-    .acessorios_etc {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .acessorios_etc:hover {
-        transform: scale(1.1);
-        
-    }
-
-    .colares {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .colares:hover {
-        transform: scale(1.1);
-    
-    }
-
-    .bolsa {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .bolsa:hover {
-        transform: scale(1.1);
-    
-    }
-
-    .OCULOS {
-    text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .OCULOS:hover {
-        transform: scale(1.1);
-    
-    }
-
-    .RELOGIO {
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .RELOGIO:hover {
-        transform: scale(1.1);
-        
-    }
-
-    .CINTOS {
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
-
-    .CINTOS:hover {
-        transform: scale(1.1);
-        
-    }
-    body {
-        background-image: url('img_girl.jpg');
-    }
-    .imagens_home{
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-    .imagens{
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-    }
-    .imagens:hover{
-        transform: scale(1.1);
-    }
 
     .cabecalho{ 
         background-image: url(./imagens/Captura\ de\ tela\ 2025-10-30\ 170859.png);
@@ -311,15 +108,6 @@
     .carrinho{
         display: flex;
         justify-content: left;
-    }
-    .imagens{
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
     }
 
     .cabecalho2{
@@ -407,39 +195,7 @@
         align-items: center;
         color: #797b7c;
         }
-    .titulo2{
-        text-align: center;
-    }
-    .CARRINHO_BOTAO{
-    color: #fff;
-    color: black;
-    }
-    @media(max-width:600px){
-        body{background-color: red;}
-        .segundo_cabecalho{font-size: 3rem;}
-        .primeiras_roupas{display: flex;flex-direction: column;}
-        .terceiras_roupas{display: flex;flex-direction: column;}
-        .segundas_roupas{display: flex;flex-direction: column;}
-        .segundo_cabecalho{display: flex;flex-direction: column;}
-        .botoes_escolhas{display: flex;flex-direction: column;}
-    }
 
-.container-inline img,
-.container-inline span{
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-.container-inline img{
-  width: 25px;
-  margin-right: 5px;  
-}
-.linha_dourada {
-    display: flex;
-    justify-content: space-around;
-    height: 120px;
-    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
-}
 /*NEVE*/
 /*aqui faze a parte da neve*/
 .container .neve{
@@ -527,6 +283,16 @@
   height: 8px;
 
 }
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
+}
 .tele_inline{
     display: flex;
     align-items: center;
@@ -588,3 +354,9 @@ p{
 /* h1{
     margin-left: 60px;
 } */
+ .linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}

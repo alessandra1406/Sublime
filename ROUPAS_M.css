@@ -219,3 +219,9 @@
         width: 25px;
         margin-right: 5px;
     }
+    .linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}
