@@ -57,7 +57,7 @@
     .botoes_cabecalho2 a {
         margin-right: 10px;
         text-decoration: none;
-        color: var(--cor-texto);
+        color: var(--cor-secundaria);
         padding: 85px;
         justify-content: center;
         text-align: center;
@@ -195,11 +195,6 @@
         align-items: center;
         color: #797b7c;
         }
-/* .carrossel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .card figcaption{
     background-color: var(--cor-secundaria);
@@ -220,9 +215,14 @@
   width: 25px;
   margin-right: 5px;  
 }
+
  .linha_dourada {
     display: flex;
     justify-content: space-around;
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+  .container {
+      width: 80%;
+      margin: auto;
+    }
