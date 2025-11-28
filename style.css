@@ -195,43 +195,6 @@
         align-items: center;
         color: #797b7c;
         }
-
-/*NEVE*/
-/*aqui faze a parte da neve*/
-.container .neve{
-  display: flex;
-
-}
- /*cor da neve e tamanhos*/
-.container .neve span{
-  
-  min-width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: -100px 20px 5px #fff,
-  -100px 20px 10px #fff;
-  margin: 0 1vw;
-  animation:animateNeve calc(75s / var(--i) ) linear infinite ;
-
-}
-
-/*animaçao da neve*/
-  
-@keyframes animateNeve{
-  0%{
-    transform: translateY(-10vh);
-  }
-  100%{
-     transform: translateY(100vh);
-  }
-}
-
-.container .neve span:nth-of-type(even) {
-  min-width: 8px ;
-  height: 8px;
-
-}
 /* .carrossel{
     display: flex;
     flex-direction: column;
@@ -247,42 +210,6 @@
     bottom: 0;
     left: 0; */
 }
-
-/*aqui faze a parte da neve*/
-.container, .neve{
-  display: flex;
-
-}
- /*cor da neve e tamanhos*/
-.container, .neve span{
-  
-  min-width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: -100px 20px 5px #fff,
-  -100px 20px 10px #fff;
-  margin: 0 12px;
-  animation:animateNeve calc(75s / var(--i) ) linear infinite ;
-
-}
-
-/*animaçao da neve*/
-  
-@keyframes animateNeve{
-  0%{
-    transform: translateY(-10vh);
-  }
-  100%{
-     transform: translateY(100vh);
-  }
-}
-
-.container, .neve span:nth-of-type(even) {
-  min-width: 8px ;
-  height: 8px;
-
-}
 .container-inline img,
 .container-inline span{
   display: inline-block;
@@ -293,67 +220,6 @@
   width: 25px;
   margin-right: 5px;  
 }
-.tele_inline{
-    display: flex;
-    align-items: center;
-    margin-left:23vw ;/* muda a minha foto para a esquerda*/
-    gap: 2vw;
-    margin-top: 20px;
-}
-    .estrela{
-        padding-left: 0;
-        display: flex;
-
-    gap: 5px;
-    }
-
-    .star{
-        list-style-type: none;/*faz os pontos de topicos desaparecer*/
-        cursor: pointer;/* quando vc aproxima o cursor ele aparece em mao*/
-        color: #f5f4ee;
-        font-size: 60px;
-        /* width: 50px;tamanho */
-    }
-
-    .star::before{
-        content:"\2605";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
-        cor cheia*/
-        /*2065 codigo do formato da estrela cor cheia *before* PROFESSOR VAI ME EXPLICAR*/
-        font-size: 90px;
-    }
-
-    .star.ativo ~ .star::before{ /*MINHA PRIMEIRA ESTRELA VAI ESTAR PREENCHIDA    
-        STAR ATIVO significa que minha 1 estrela vai estar preenchida
-        STAR BEFORE significa que minha estrela vai estar vazia*/
-        content:"\2606";/*contorno da estrela
-        /*sobre o meu ativo com ~ no meio (SERVE PARA QUANDO EU CLILCAR NO ELEMENTO 3 VAI ATE O 3 E NÃO MUDA MINHA ESTRELA ELA PASSA DE 2605 COR CHEIA PARA 2606 COR VAZIA*/
-        
-        color: #f5f5f0;
-
-    }
-
-    .estrela:hover .star::before{ /* significa que quando eu passar o meu mouse mause em cima ele apareça a mão para clicar e minhas estrelas vão estar prenchidas*/
-        content:"\2605"; /*cor cheia*/
-    }
-
-    .star:hover ~ .star::before{
-        content:"\2606"; /* cor vazia*/
-        color: rgb(255, 234, 118);
-
-    }
-.estelar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-p{
-    font-size: 35px;
-}
-/* h1{
-    margin-left: 60px;
-} */
  .linha_dourada {
     display: flex;
     justify-content: space-around;
