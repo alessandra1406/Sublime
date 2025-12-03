@@ -71,11 +71,6 @@ button:hover {
   
 }
 
-@media(max-width:600px){
-    body{background-color: red;}
-    .header{font-size: 3rem;}
-    .conteudo{display: flex;flex-direction: column;}
-}
 
 /*aqui mexe nas funções da logo*/
 .fundo{

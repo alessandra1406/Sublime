@@ -57,6 +57,11 @@
     .titulo2{
         text-align: center;
     }
+    .CARRINHO_BOTAO{
+    color: #fff;
+    color: black;
+    }
+
 
 .linha_dourada {
     display: flex;
