@@ -71,6 +71,11 @@ button:hover {
   
 }
 
+@media(max-width:600px){
+    body{background-color: red;}
+    .header{font-size: 3rem;}
+    .conteudo{display: flex;flex-direction: column;}
+}
 
 /*aqui mexe nas funções da logo*/
 .fundo{
@@ -136,7 +141,7 @@ header {
 
 }
 
-.botoes_cabecalho2 a {
+/* .botoes_cabecalho2 a {
     margin-right: 10px;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -155,7 +160,23 @@ header {
 .botoes_cabecalho a {
     text-decoration: none;
     color: var(--cor-texto);
-}
+} */
+     .botoes_cabecalho a{
+        
+        text-decoration: none;
+        color: white;
+    }
+
+    .botoes_cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+
+    }
 .barra_input{
     width: 90px;
     border-style: ridge;
@@ -179,3 +200,5 @@ header {
   width: 25px;
   margin-right: 5px;  
 }
+
+
