@@ -58,7 +58,7 @@
         margin-right: 10px;
         text-decoration: none;
         color: var(--cor-secundaria);
-        padding: 85px;
+        
         justify-content: center;
         text-align: center;
         width: 80%;
@@ -99,6 +99,7 @@
 
     .primeiros_acessorios {
         display: flex;
+        flex-wrap: wrap;
         padding: 20px;
         gap: 4%;
     }
@@ -312,15 +313,6 @@
         display: flex;
         justify-content: left;
     }
-    .imagens{
-        text-align: center;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-        font-size: 24px;
-        background-color: white;
-        border-radius: 5%;
-        overflow: hidden;
-    }
 
     .cabecalho2{
     display: flex;
@@ -407,80 +399,6 @@
         align-items: center;
         color: #797b7c;
         }
-    .titulo2{
-        text-align: center;
-    }
-    .CARRINHO_BOTAO{
-    color: #fff;
-    color: black;
-    }
-    @media(max-width:600px){
-        body{background-color: red;}
-        .segundo_cabecalho{font-size: 3rem;}
-        .primeiras_roupas{display: flex;flex-direction: column;}
-        .terceiras_roupas{display: flex;flex-direction: column;}
-        .segundas_roupas{display: flex;flex-direction: column;}
-        .segundo_cabecalho{display: flex;flex-direction: column;}
-        .botoes_escolhas{display: flex;flex-direction: column;}
-    }
-
-.container-inline img,
-.container-inline span{
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-.container-inline img{
-  width: 25px;
-  margin-right: 5px;  
-}
-.linha_dourada {
-    display: flex;
-    justify-content: space-around;
-    height: 120px;
-    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
-}
-/*NEVE*/
-/*aqui faze a parte da neve*/
-.container .neve{
-  display: flex;
-
-}
- /*cor da neve e tamanhos*/
-.container .neve span{
-  
-  min-width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: -100px 20px 5px #fff,
-  -100px 20px 10px #fff;
-  margin: 0 1vw;
-  animation:animateNeve calc(75s / var(--i) ) linear infinite ;
-
-}
-
-/*animaçao da neve*/
-  
-@keyframes animateNeve{
-  0%{
-    transform: translateY(-10vh);
-  }
-  100%{
-     transform: translateY(100vh);
-  }
-}
-
-.container .neve span:nth-of-type(even) {
-  min-width: 8px ;
-  height: 8px;
-
-}
-/* .carrossel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .card figcaption{
     background-color: var(--cor-secundaria);
@@ -491,4 +409,89 @@
     bottom: 0;
     left: 0; */
 }
+<<<<<<< HEAD
+=======
+.container-inline img,
+.container-inline span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.container-inline img{
+  width: 25px;
+  margin-right: 5px;  
+}
+
+ .linha_dourada {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
+}
+    .estrela{
+        padding-left: 0;
+        display: flex;
+
+    gap: 5px;
+    }
+
+    .star{
+        list-style-type: none;/*faz os pontos de topicos desaparecer*/
+        cursor: pointer;/* quando vc aproxima o cursor ele aparece em mao*/
+        color: #f5f4ee;
+        font-size: 60px;
+        /* width: 50px;tamanho */
+    }
+
+    .star::before{
+        content:"\2605";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
+        cor cheia*/
+        /*2065 codigo do formato da estrela cor cheia *before* PROFESSOR VAI ME EXPLICAR*/
+        font-size: 90px;
+    }
+
+    .star.ativo ~ .star::before{ /*MINHA PRIMEIRA ESTRELA VAI ESTAR PREENCHIDA    
+        STAR ATIVO significa que minha 1 estrela vai estar preenchida
+        STAR BEFORE significa que minha estrela vai estar vazia*/
+        content:"\2606";/*contorno da estrela
+        /*sobre o meu ativo com ~ no meio (SERVE PARA QUANDO EU CLILCAR NO ELEMENTO 3 VAI ATE O 3 E NÃO MUDA MINHA ESTRELA ELA PASSA DE 2605 COR CHEIA PARA 2606 COR VAZIA*/
+        
+        color: #f5f5f0;
+
+    }
+
+    .estrela:hover .star::before{ /* significa que quando eu passar o meu mouse mause em cima ele apareça a mão para clicar e minhas estrelas vão estar prenchidas*/
+        content:"\2605"; /*cor cheia*/
+    }
+
+    .star:hover ~ .star::before{
+        content:"\2606"; /* cor vazia*/
+        color: rgb(255, 234, 118);
+
+    }
+.estelar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 35px;
+}
+/* h1{
+    margin-left: 60px;
+} */
+
+@media(max-width:600px){
+        body{background-color: red;}
+        .segundo_cabecalho{font-size: 3rem;}
+        .primeiras_roupas{display: flex;flex-direction: column;}
+        .terceiras_roupas{display: flex;flex-direction: column;}
+        .segundas_roupas{display: flex;flex-direction: column;}
+        .segundo_cabecalho{display: flex;flex-direction: column;}
+        .botoes_escolhas{display: flex;flex-direction: column;}
+    }
+    
+>>>>>>> fbc567fbb98924001f721470a0b8e8f22014ff2c
 

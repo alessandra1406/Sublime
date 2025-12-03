@@ -1,4 +1,4 @@
-.FUNDO {
+    .FUNDO {
         background-color: #F6DE7E;
     }
 
@@ -15,10 +15,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+
         /* border: 10px solid rgb(0, 0, 0); */
         width: 100%;
         /* height: 200px; */
+    }
+
+    .cabecalho2 {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-secundaria);
+        align-items: center;
+        padding: 20px;
     }
 
     header {
@@ -64,15 +72,8 @@
         width: 80%;
 
     }
-    
-.cabecalho2 {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--cor-secundaria);
-    align-items: center;
-    padding: 20px
-}
-    .botoes_cabecalho{
+
+    .botoes_cabecalho {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
@@ -87,78 +88,76 @@
         text-align: center; */
         /* width: 90%; */
     }
-.tele_inline{
-    display: flex;
-    align-items: center;
-    margin-left:23vw ;/* muda a minha foto para a esquerda*/
-    gap: 2vw;
-    margin-top: 20px;
-}
-    .estrela{
-        padding-left: 0;
+
+    .primeiros_acessorios {
         display: flex;
-
-    gap: 5px;
+        padding: 20px;
+        gap: 4%;
     }
 
-    .star{
-        list-style-type: none;/*faz os pontos de topicos desaparecer*/
-        cursor: pointer;/* quando vc aproxima o cursor ele aparece em mao*/
-        color: #F6DE7E;
-        font-size: 60px;
-        /* width: 50px;tamanho */
+    .segundos_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
     }
 
-    .star::before{
-        content:"\2605";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
-        cor cheia*/
-        /*2065 codigo do formato da estrela cor cheia *before* PROFESSOR VAI ME EXPLICAR*/
-        font-size: 90px;
+    .terceiros_acessorios {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
     }
 
-    .star.ativo ~ .star::before{ /*MINHA PRIMEIRA ESTRELA VAI ESTAR PREENCHIDA    
-        STAR ATIVO significa que minha 1 estrela vai estar preenchida
-        STAR BEFORE significa que minha estrela vai estar vazia*/
-        content:"\2606";/*contorno da estrela
-        /*sobre o meu ativo com ~ no meio (SERVE PARA QUANDO EU CLILCAR NO ELEMENTO 3 VAI ATE O 3 E NÃO MUDA MINHA ESTRELA ELA PASSA DE 2605 COR CHEIA PARA 2606 COR VAZIA*/
+    .acessorios_oculos {
+        display: flex;
+        padding: 20px;
+        gap: 4%;
+    }
+
+    .acessorios_etc {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .acessorios_etc:hover {
+        transform: scale(1.1);
         
-        color: #f5f094;
-
     }
 
-    .estrela:hover .star::before{ /* significa que quando eu passar o meu mouse mause em cima ele apareça a mão para clicar e minhas estrelas vão estar prenchidas*/
-        content:"\2605"; /*cor cheia*/
+    .colares {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
     }
 
-    .star:hover ~ .star::before{
-        content:"\2606"; /* cor vazia*/
-        color: rgb(255, 234, 118);
-
-    }
-.estelar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .colares:hover {
+        transform: scale(1.1);
     
-}
-p{
-    font-size: 35px;
-}
-/* h1{
-    margin-left: 60px;
-} */
-.container-inline img,
-.container-inline span{
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-.container-inline img{
-  width: 25px;
-  margin-right: 5px;  
-}
-.barra_input{
+    }
+
+    .bolsa {
+    text-align: center;
+        transition: transform 0.5s ease-in-out;
+        filter: drop-shadow(0 0 1rem black);
+        font-size: 24px;
+        background-color: white;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .bolsa:hover {
+        transform: scale(1.1);
+    
+    }
+    .barra_input{
         width: 500px;
         border-style: ridge;
         border-color:black;
@@ -171,7 +170,20 @@ p{
         
         border-color: black;
     }
-/* .container-inline img,
+    .carrinho{
+        display: flex;
+        justify-content: left;
+    }
+
+  .cabecalho2{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+    align-items: center;
+    padding: 20px;
+    }
+
+.container-inline img,
 .container-inline span{
   display: inline-block;
   vertical-align: middle;
@@ -180,7 +192,7 @@ p{
 .container-inline img{
   width: 25px;
   margin-right: 5px;  
-} */
+}
 .linha_dourada {
     display: flex;
     justify-content: space-around;
