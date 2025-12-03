@@ -107,42 +107,6 @@
         gap: 4%;
     }
 
-    .primeiros_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .segundos_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .terceiros_acessorios {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_oculos {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_relogio {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
-    .acessorios_cintos {
-        display: flex;
-        padding: 20px;
-        gap: 4%;
-    }
-
     .tres_primeiras_roupas {
         text-align: center;
         transition: transform 0.5s ease-in-out;

@@ -4,8 +4,6 @@
 
 * {box-sizing: border-box} /*serve para simplificar o cálculo do tamanho de um elemento*/
 
-
-
 /* Campos de entrada de largura total */
 /*Aplica os estilos a todos os elementos <input>*/
 input[type=text], input[type=password] {
@@ -107,10 +105,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    /* border: 10px solid rgb(0, 0, 0); */
     width: 100%;
-    /* height: 200px; */
 }
 
 header {
@@ -163,13 +158,8 @@ header {
 }
 
 .botoes_cabecalho a {
-    /* margin-right: 10px; */
     text-decoration: none;
     color: var(--cor-texto);
-    /* padding: 115px; */
-    /* justify-content: center;
-    text-align: center; */
-    /* width: 90%; */
 }
 .barra_input{
     width: 90px;

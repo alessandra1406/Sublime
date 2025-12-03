@@ -1,6 +1,8 @@
 function alerta(){
     alert("Adicionado no carrinho!");
 }
+
+
 let star=document.querySelectorAll('.star');/* selecionamos  e seletamos todas as nossas estrelas dentro de uma variavel*/
 
  document.addEventListener('click',function(e){/* funcão que eu possa clilcar mas minhas estrelas*/
