@@ -54,17 +54,6 @@
 
     }
 
-    /* .botoes_cabecalho2 a {
-        margin-right: 10px;
-        text-decoration: none;
-        color: var(--cor-secundaria);
-        padding: 85px;
-        justify-content: center;
-        text-align: center;
-        width: 80%;
-
-    } */
-
     .botoes_cabecalho2 a{
         
         text-decoration: none;
@@ -244,3 +233,79 @@
       width: 80%;
       margin: auto;
     }
+
+    
+@media (max-width: 900px) {
+
+    /* CABEÇALHO */
+    .cabecalho {
+        height: auto;
+        padding: 20px 10px;
+        border-width: 15px;
+        background-size: cover;
+    }
+
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* MENU */
+    .botoes_cabecalho2 a {
+        padding: 20px;
+        font-size: 1.1rem;
+        display: inline-block;
+    }
+
+    .linha_dourada {
+        height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* CARROSSEL */
+    .carrossel {
+        gap: 1.5em;
+        overflow-x: auto;
+        padding: 10px;
+        height: auto;
+    }
+
+    .card {
+        flex: 0 0 85%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card figcaption {
+        width: 100%;
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    /* RODAPÉ */
+    .rodape {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container-inline {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .container-inline img {
+        width: 30px;
+    }
+
+    footer h1 {
+        font-size: 1.4rem;
+    }
+}

@@ -141,26 +141,6 @@ header {
 
 }
 
-/* .botoes_cabecalho2 a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    padding: 85px;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-
-}
-.botoes_cabecalho{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.botoes_cabecalho a {
-    text-decoration: none;
-    color: var(--cor-texto);
-} */
      .botoes_cabecalho a{
         
         text-decoration: none;
@@ -171,7 +151,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 85px;
+        gap: 180px;
         justify-content: center;
         text-align: center;
         width: 80%;
@@ -200,5 +180,3 @@ header {
   width: 25px;
   margin-right: 5px;  
 }
-
-
