@@ -16,3 +16,8 @@ classStar.add('ativo');
 console.log(e.target.getAttribute('data-estrela'));/* aqui ele deixa marcado minhs informacoes de qual estrelinha foi marcada e anda para o banco de dados*/
 }
 });
+
+function compra(){
+    alert("Compra finalizada!");
+    window.location.href = "./index.html";
+}

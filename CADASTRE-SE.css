@@ -33,7 +33,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   opacity: 0.9;
    border-style: solid; /* É necessário definir um estilo para a borda aparecer */
   border-color: rgb(255, 255, 255);
@@ -60,6 +60,10 @@ button:hover {
   padding: 50px;
   background-color:  #0e0d0a;
   color: #fffdfd;
+  position: relative;
+  width: 50%;/*largura */
+  height: 100%;/*altura*/
+  left: 25vw;
 }
 
 /* Limpar pontos flutuantes */

@@ -216,3 +216,128 @@
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+
+
+@media (max-width: 1024px) {
+
+
+
+    .botoes_escolhas {
+        margin-top: 5px;
+        height: auto;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .barra_input {
+        width: 80%;
+    }
+}
+
+
+/* ======================= */
+/* TABLETS E CELULARES */
+/* ======================= */
+
+@media (max-width: 768px) {
+
+    /* CABEÇALHO */
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .carrinho img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .barra_input {
+        width: 95%;
+    }
+
+    /* CARDS DE PRODUTOS */
+    .acessorios_oculos,
+    .acessorios_relogio,
+    .acessorios_cintos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .OCULOS img,
+    .RELOGIO img,
+    .CINTOS img {
+        width: 250px;
+        height: 250px;
+    }
+
+    figcaption {
+        font-size: 18px;
+    }
+
+    .CARRINHO_BOTAO {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .cabecalho2 {
+        padding: 15px;
+    }
+
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .barra_input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .OCULOS img,
+    .RELOGIO img,
+    .CINTOS img {
+        width: 200px;
+        height: 200px;
+    }
+
+    figcaption {
+        font-size: 16px;
+    }
+
+    .CARRINHO_BOTAO {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .linha_dourada {
+        gap: 8px;
+    }
+
+    .botoes_escolhas {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}

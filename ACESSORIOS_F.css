@@ -199,3 +199,160 @@
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+@media (max-width: 1050px) {
+
+    /* HEADER */
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botoes_cabecalho {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .barra_input {
+        width: 80%;
+    }
+
+    /* MENU CATEGORIAS */
+    .linha_dourada {
+        height: auto;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* PRODUTOS */
+    .primeiros_acessorios,
+    .segundos_acessorios,
+    .terceiros_acessorios {
+          flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .acessorios_etc,
+    .colares,
+    .bolsa {
+        width: 45%;
+        max-width: 350px;
+    }
+
+    .acessorios_etc img,
+    .colares img,
+    .bolsa img {
+        width: 100%;
+        height: auto;
+      
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carrinho img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 1rem;
+    }
+
+    .barra_input {
+        width: 90%;
+    }
+
+    /* MENU CATEGORIAS */
+    .botoes_escolhas {
+        width: 90%;
+        padding: 12px;
+        font-size: 1rem;
+        height: auto;
+    }
+
+    /* PRODUTOS EM COLUNA DUPLA */
+    .acessorios_etc,
+    .colares,
+    .bolsa {
+        width: 80%;
+        gap: 10px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    /* HEADER */
+    .segundo_cabecalho {
+        gap: 10px;
+    }
+
+    .logotipo img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .carrinho img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .barra_input {
+        width: 95%;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* CATEGORIAS */
+    .botoes_escolhas {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    /* PRODUTOS EM COLUNA ÚNICA */
+    .acessorios_etc,
+    .colares,
+    .bolsa {
+        width: 95%;
+        gap: 10px;
+    }
+
+    figcaption {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .CARRINHO_BOTAO {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .logotipo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    figcaption {
+        font-size: 0.85rem;
+    }
+
+    .CARRINHO_BOTAO {
+        font-size: 0.8rem;
+    }
+}
