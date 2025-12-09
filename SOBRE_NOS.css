@@ -207,3 +207,150 @@ p{
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+@media (max-width: 1024px) {
+
+    .botoes_cabecalho a {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .barra_input {
+        width: 350px;
+    }
+
+    .linha_dourada {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .botoes_escolhas {
+        height: auto;
+        margin: 5px;
+        padding: 8px 14px;
+        font-size: 16px;
+    }
+
+    .tele_inline {
+        margin-left: 10vw;
+    }
+
+    p {
+        font-size: 26px;
+    }
+}
+
+/* ================================
+   RESPONSIVIDADE – TELA ATÉ 768px
+=================================*/
+@media (max-width: 768px) {
+
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .botoes_cabecalho {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .botoes_cabecalho a {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    .barra_input {
+        width: 80%;
+    }
+
+    .tele_inline {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .tele_inline img {
+        width: 260px;
+        height: auto;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .TEXTO {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .titulo2 {
+        font-size: 26px;
+    }
+
+    .estrela {
+        gap: 0;
+    }
+
+    .star::before {
+        font-size: 60px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .logotipo img,
+    .carrinho img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .botoes_cabecalho a {
+        padding: 4px 0;
+        font-size: 14px;
+    }
+
+    .barra_input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .botoes_escolhas {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .TEXTO {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .titulo2 {
+        font-size: 22px;
+    }
+
+    .tele_inline img {
+        width: 200px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .star::before {
+        font-size: 45px;
+    }
+}

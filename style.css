@@ -309,3 +309,68 @@
         font-size: 1.4rem;
     }
 }
+
+
+
+@media (max-width: 600px) {
+
+    /* HEADER */
+    .cabecalho {
+        border-width: 10px;
+    }
+
+    .logotipo img {
+        width: 65px;
+        height: 65px;
+    }
+
+    /* MENU */
+    .botoes_cabecalho2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .botoes_cabecalho2 a {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    /* LINHA DOURADA */
+    .linha_dourada {
+        padding: 10px;
+        gap: 5px;
+    }
+
+    /* CARROSSEL */
+    .card {
+        flex: 0 0 95%;
+    }
+
+    /* TEXTO */
+    h1, h2, h3 {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width: 420px) {
+
+    .botoes_cabecalho2 a {
+        font-size: 0.9rem;
+    }
+
+    .logotipo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    footer h1 {
+        font-size: 1.1rem;
+    }
+
+    .container-inline img {
+        width: 25px;
+    }
+}

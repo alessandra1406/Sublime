@@ -187,6 +187,153 @@
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+@media (max-width: 1024px) {
+
+    .linha_dourada {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .botoes_escolhas {
+        margin-top: 0;
+        height: auto;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .primeiras_roupas,
+    .segundas_roupas,
+    .terceiras_roupas {
+        gap: 2%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/* =============================== */
+/* CELULARES GRANDES */
+/* =============================== */
+
+@media (max-width: 768px) {
+
+    /* CABEÇALHO */
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carrinho img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .barra_input {
+        width: 90%;
+    }
+
+    /* PRODUTOS EM COLUNA */
+    .primeiras_roupas,
+    .segundas_roupas,
+    .terceiras_roupas {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .tres_primeiras_roupas,
+    .tres_segundas_roupas,
+    .tres_terceiras_roupas {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .tres_primeiras_roupas img,
+    .tres_segundas_roupas img,
+    .tres_terceiras_roupas img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .CARRINHO_BOTAO {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .botoes_escolhas {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .cabecalho2 {
+        padding: 15px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 16px;
+    }
+
+    .tres_primeiras_roupas img,
+    .tres_segundas_roupas img,
+    .tres_terceiras_roupas img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .tres_primeiras_roupas,
+    .tres_segundas_roupas,
+    .tres_terceiras_roupas {
+        font-size: 18px;
+    }
+
+    .CARRINHO_BOTAO {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .botoes_escolhas {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .container-inline img {
+        width: 20px;
+    }
+}
 @media (max-width: 480px) {
 
     .cabecalho2 {
