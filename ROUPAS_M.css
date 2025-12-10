@@ -189,6 +189,7 @@
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
+
 @media (max-width: 1024px) {
 
     .linha_dourada {
@@ -200,9 +201,9 @@
 
     .botoes_escolhas {
         margin-top: 0;
+        height: auto;
         padding: 10px 20px;
         font-size: 15px;
-        height: auto;
     }
 
     .primeiras_roupas,
@@ -217,14 +218,13 @@
     }
 }
 
-/* ========================================= */
-/* CELULARES GRANDES (ATÉ 768px) */
-/* ========================================= */
+
+
+
 
 @media (max-width: 768px) {
 
     /* CABEÇALHO */
-
     .segundo_cabecalho {
         flex-direction: column;
         gap: 15px;
@@ -232,7 +232,7 @@
 
     .botoes_cabecalho {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
         gap: 10px;
     }
 
@@ -256,7 +256,6 @@
     }
 
     /* PRODUTOS EM COLUNA */
-
     .primeiras_roupas,
     .segundas_roupas,
     .terceiras_roupas {
@@ -295,8 +294,8 @@
         width: 90%;
         margin-top: 10px;
     }
-
 }
+
 
 
 @media (max-width: 480px) {
@@ -312,8 +311,8 @@
     .tres_primeiras_roupas img,
     .tres_segundas_roupas img,
     .tres_terceiras_roupas img {
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 260px;
     }
 
     .tres_primeiras_roupas,
@@ -349,8 +348,8 @@
     .tres_primeiras_roupas img,
     .tres_segundas_roupas img,
     .tres_terceiras_roupas img {
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 260px;
     }
 
     .tres_primeiras_roupas,

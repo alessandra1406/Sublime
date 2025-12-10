@@ -239,6 +239,7 @@
 
     /* CABEÇALHO */
     .cabecalho {
+        display: flex;
         height: auto;
         padding: 20px 10px;
         border-width: 15px;
@@ -264,13 +265,6 @@
         gap: 10px;
     }
 
-    /* CARROSSEL */
-    .carrossel {
-        gap: 1.5em;
-        overflow-x: auto;
-        padding: 10px;
-        height: auto;
-    }
 
     .card {
         flex: 0 0 85%;
@@ -290,27 +284,10 @@
         padding: 15px;
     }
 
-    /* RODAPÉ */
-    .rodape {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .container-inline {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .container-inline img {
-        width: 30px;
-    }
-
-    footer h1 {
-        font-size: 1.4rem;
+   .container-inline img {
+        width: 20px;
     }
 }
-
-
 
 @media (max-width: 600px) {
 
@@ -341,6 +318,9 @@
     .linha_dourada {
         padding: 10px;
         gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* CARROSSEL */
@@ -348,29 +328,4 @@
         flex: 0 0 95%;
     }
 
-    /* TEXTO */
-    h1, h2, h3 {
-        font-size: 1.3rem;
-    }
-}
-
-
-@media (max-width: 420px) {
-
-    .botoes_cabecalho2 a {
-        font-size: 0.9rem;
-    }
-
-    .logotipo img {
-        width: 55px;
-        height: 55px;
-    }
-
-    footer h1 {
-        font-size: 1.1rem;
-    }
-
-    .container-inline img {
-        width: 25px;
-    }
 }

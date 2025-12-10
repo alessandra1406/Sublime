@@ -80,19 +80,19 @@
         /* width: 90%; */
     }
 
-    .primeiros_acessorios {
+    .acessorios_oculos {
         display: flex;
         padding: 20px;
         gap: 4%;
     }
 
-    .segundos_acessorios {
+    .acessorios_relogio {
         display: flex;
         padding: 20px;
         gap: 4%;
     }
 
-    .terceiros_acessorios {
+    .acessorios_cintos {
         display: flex;
         padding: 20px;
         gap: 4%;
@@ -218,24 +218,25 @@
 }
 
 
-@media (max-width: 1024px) {
-
-
+@media (max-width: 600px) {
 
     .botoes_escolhas {
-        margin-top: 5px;
+        margin-top: 0;
         height: auto;
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 10px 20px;
+        font-size: 15px;
     }
 
-    .barra_input {
-        width: 80%;
+    .acessorios_oculos,
+    .acessorios_relogio,
+    .acessorios_cintos {
+        gap: 2%;
     }
-}
 
-
-@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
     /* CABEÇALHO */
     .segundo_cabecalho {
@@ -245,8 +246,8 @@
 
     .botoes_cabecalho {
         flex-direction: column;
-        gap: 10px;
         text-align: center;
+        gap: 10px;
     }
 
     .botoes_cabecalho a {
@@ -254,38 +255,34 @@
         padding: 10px;
     }
 
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
     .carrinho img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     .barra_input {
-        width: 95%;
+        width: 90%;
     }
 
-    /* CARDS DE PRODUTOS */
+    /* PRODUTOS EM COLUNA */
     .acessorios_oculos,
     .acessorios_relogio,
     .acessorios_cintos {
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 40px;
     }
 
-    .OCULOS img,
-    .RELOGIO img,
-    .CINTOS img {
-        width: 250px;
-        height: 250px;
-    }
-
-    figcaption {
-        font-size: 18px;
-    }
 
     .CARRINHO_BOTAO {
-        font-size: 15px;
+        font-size: 16px;
         padding: 10px 20px;
+        width: 80%;
     }
 
     .linha_dourada {
@@ -293,47 +290,9 @@
         height: auto;
         padding: 20px 0;
     }
-}
-
-
-@media (max-width: 480px) {
-
-    .cabecalho2 {
-        padding: 15px;
-    }
-
-    .logotipo img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .barra_input {
-        width: 90%;
-        font-size: 14px;
-    }
-
-    .OCULOS img,
-    .RELOGIO img,
-    .CINTOS img {
-        width: 200px;
-        height: 200px;
-    }
-
-    figcaption {
-        font-size: 16px;
-    }
-
-    .CARRINHO_BOTAO {
-        width: 90%;
-        font-size: 14px;
-    }
-
-    .linha_dourada {
-        gap: 8px;
-    }
 
     .botoes_escolhas {
-        font-size: 13px;
-        padding: 6px 10px;
+        width: 90%;
+        margin-top: 10px;
     }
 }

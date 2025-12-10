@@ -300,6 +300,7 @@
 
     .product-item {
         display: flex;
+        flex-wrap: wrap;
         background-color: #fff;
         margin-bottom: 15px;
         padding: 15px;
@@ -364,3 +365,75 @@
     width: 25px;
     margin-right: 5px;  
     }
+
+@media (max-width: 768px) {
+
+    /* CABEÇALHO */
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carrinho img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .barra_input {
+        width: 90%;
+    }
+    .CARRINHO_BOTAO {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .botoes_escolhas {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .cabecalho2 {
+        padding: 15px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 16px;
+    }
+
+    .CARRINHO_BOTAO {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .botoes_escolhas {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+}
