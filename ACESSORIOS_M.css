@@ -237,36 +237,56 @@
         max-width: 100%;
         height: auto;
     }
+ img {
+        max-width: 100%;
+        height: auto;
+    }
+   .botoes_escolhas {
+        height: auto;
+        margin: 5px;
+        padding: 8px 14px;
+        font-size: 16px;
+    }
 
-    /* CABEÇALHO */
     .segundo_cabecalho {
         flex-direction: column;
         gap: 15px;
+        text-align: center;
     }
 
     .botoes_cabecalho {
-        flex-direction: column;
-        text-align: center;
+        flex-wrap: wrap;
         gap: 10px;
     }
 
     .botoes_cabecalho a {
-        font-size: 18px;
-        padding: 10px;
+        padding: 6px 12px;
+        font-size: 16px;
     }
 
-    .logotipo img {
-        width: 80px;
-        height: 80px;
+    .barra_input {
+        width: 80%;
     }
 
-    .carrinho img {
-        width: 70px;
-        height: 70px;
+       
+    .botoes_cabecalho a {
+        padding: 4px 0;
+        font-size: 14px;
     }
 
     .barra_input {
         width: 90%;
+        font-size: 14px;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .botoes_escolhas {
+        width: 80%;
+        font-size: 14px;
     }
 
     /* PRODUTOS EM COLUNA */

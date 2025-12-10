@@ -208,6 +208,7 @@ p{
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
 
+
 @media (max-width: 600px) {
      .botoes_escolhas {
         height: auto;
@@ -236,6 +237,10 @@ p{
         width: 80%;
     }
 
+    .container-inline img {
+        width: 20px;
+    }
+    
     .tele_inline {
         flex-direction: column;
         margin-left: 0;
@@ -278,9 +283,11 @@ p{
         font-size: 14px;
     }
 
-    .linha_dourada {
-        flex-direction: column;
+     .linha_dourada {
         height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .botoes_escolhas {
