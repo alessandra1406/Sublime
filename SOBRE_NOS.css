@@ -207,44 +207,14 @@ p{
     height: 120px;
     background-image: linear-gradient(to right, #B3802E, #F6DE7E, #B3802E);
 }
-@media (max-width: 1024px) {
 
-    .botoes_cabecalho a {
-        font-size: 18px;
-        padding: 5px;
-    }
-
-    .barra_input {
-        width: 350px;
-    }
-
-    .linha_dourada {
-        height: auto;
-        flex-wrap: wrap;
-        padding: 10px 0;
-        gap: 10px;
-    }
-
-    .botoes_escolhas {
+@media (max-width: 600px) {
+     .botoes_escolhas {
         height: auto;
         margin: 5px;
         padding: 8px 14px;
         font-size: 16px;
     }
-
-    .tele_inline {
-        margin-left: 10vw;
-    }
-
-    p {
-        font-size: 26px;
-    }
-}
-
-/* ================================
-   RESPONSIVIDADE – TELA ATÉ 768px
-=================================*/
-@media (max-width: 768px) {
 
     .segundo_cabecalho {
         flex-direction: column;
@@ -297,22 +267,7 @@ p{
     .star::before {
         font-size: 60px;
     }
-}
-
-
-@media (max-width: 480px) {
-
-    .logotipo img,
-    .carrinho img {
-        width: 70px;
-        height: 70px;
-    }
-
-    .botoes_cabecalho {
-        flex-direction: column;
-        gap: 8px;
-    }
-
+    
     .botoes_cabecalho a {
         padding: 4px 0;
         font-size: 14px;
@@ -331,26 +286,5 @@ p{
     .botoes_escolhas {
         width: 80%;
         font-size: 14px;
-    }
-
-    .TEXTO {
-        font-size: 16px;
-        padding: 15px;
-    }
-
-    .titulo2 {
-        font-size: 22px;
-    }
-
-    .tele_inline img {
-        width: 200px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    .star::before {
-        font-size: 45px;
     }
 }

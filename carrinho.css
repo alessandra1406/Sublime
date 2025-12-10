@@ -366,7 +366,7 @@
     margin-right: 5px;  
     }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
     /* CABEÇALHO */
     .segundo_cabecalho {
@@ -414,26 +414,4 @@
         width: 90%;
         margin-top: 10px;
     }
-}
-
-@media (max-width: 480px) {
-
-    .cabecalho2 {
-        padding: 15px;
-    }
-
-    .botoes_cabecalho a {
-        font-size: 16px;
-    }
-
-    .CARRINHO_BOTAO {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .botoes_escolhas {
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-
 }

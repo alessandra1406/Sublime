@@ -287,19 +287,11 @@
    .container-inline img {
         width: 20px;
     }
-}
-
-@media (max-width: 600px) {
-
-    /* HEADER */
+      /* HEADER */
     .cabecalho {
         border-width: 10px;
     }
 
-    .logotipo img {
-        width: 65px;
-        height: 65px;
-    }
 
     /* MENU */
     .botoes_cabecalho2 {

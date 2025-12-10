@@ -184,3 +184,72 @@ header {
   width: 25px;
   margin-right: 5px;  
 }
+
+@media (max-width: 600px) {
+
+    /* CABEÇALHO */
+    .segundo_cabecalho {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botoes_cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .botoes_cabecalho a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .logotipo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carrinho img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .barra_input {
+        width: 90%;
+    }
+
+    .CARRINHO_BOTAO {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+
+    .linha_dourada {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .botoes_escolhas {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+    /* Container do formulário ocupa quase a tela inteira */
+    .container {
+        width: 90%;
+        left: 5%;
+        padding: 25px;
+    }
+
+    /* Botões ficam automáticos e com largura total */
+    .cancelbtn, .signupbtn {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+    /* Rodapé menor */
+    .container-inline img {
+        width: 20px;
+    }
