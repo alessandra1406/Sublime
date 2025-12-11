@@ -127,64 +127,74 @@
     }
 
     .cart-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        max-width: 1200px;
-        margin: auto;
-    }
+      /* Área que segura tudo: produtos + resumo, lado a lado */
+    display: flex; /* Coloca os blocos lado a lado */
+    flex-wrap: wrap; /* Permite quebrar para baixo no celular */
+    gap: 20px; /* Espaço entre os blocos */
+    max-width: 1200px; /* Largura máxima */
+    margin: auto; /* Centraliza tudo */
+}
 
     .product-list-section {
-        flex: 3;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    }
-
+     /* Caixa onde ficam todos os produtos do carrinho */
+    flex: 3; /* Ocupa mais espaço que o resumo */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1); /* Sombra suave */
+}
     .cart-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 1px solid #eee;
-        padding: 15px 0;
-    }
+/* Estilo de cada produto listado */
+    display: flex; /* Tudo em linha: imagem + texto + quantidade + preço */
+    background-color: #fff;
+    margin-bottom: 15px; /* Distância entre os produtos */
+    padding: 15px; /* Espaço interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Sombra suave */
+    align-items: center; /* Alinha tudo verticalmente */
+}
 
     .product-image {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-        margin-right: 15px;
-    }
+    /* Estilo da imagem do produto */
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Não distorce a imagem */
+    margin-right: 15px; /* Espaço entre imagem e texto */
+}
+
 
     .product-details {
-        flex-grow: 1;
-    }
+  /* Área dos detalhes do produto */
+    flex-grow: 1; /* Ocupa o espaço disponível */
+}
+
 
     .quantity-control {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
+       /* Área onde fica o input de quantidade */
+    width: 50px; /* Largura do campo de quantidade */
+    padding: 5px;
+    text-align: center; /* Número centralizado */
+}
 
     .cart-summary {
-        flex: 1;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-        height: fit-content;
-    }
+      /* Estilo do preço do produto */
+    font-weight: bold; /* Negrito */
+    margin-left: 20px; /* Espaço antes do preço */
+}
+
 
     .checkout-btn {
-        width: 100%;
-        padding: 10px;
-        background-color: #ff4d2d; /* Cor da Shopee */
-        color: white;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
+        /* Botão de finalizar compra */
+    width: 100%; /* Ocupa toda largura */
+    padding: 15px;
+    background-color: #B3802E; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Arredondado */
+    font-size: 1em;
+    cursor: pointer; /* Muda o cursor ao passar */
+    margin-top: 10px;
+}
 
     /* Adicione media queries para responsividade */
     @media (max-width: 768px) {

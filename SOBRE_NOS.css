@@ -92,7 +92,7 @@
     }
 
     .star::before{
-        content:"\2606";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
+        content:"\2605";/*TODAS AS MINHS ESTRELAS VÃO ESTAR PRENCHIDAS
         cor cheia*/
         /*2065 codigo do formato da estrela cor cheia *before* PROFESSOR VAI ME EXPLICAR*/
         font-size: 90px;
@@ -101,7 +101,7 @@
     .star.ativo ~ .star::before{ /*MINHA PRIMEIRA ESTRELA VAI ESTAR PREENCHIDA    
         STAR ATIVO significa que minha 1 estrela vai estar preenchida
         STAR BEFORE significa que minha estrela vai estar vazia*/
-        content:"\2605";/*contorno da estrela
+        content:"\2606";/*contorno da estrela
         /*sobre o meu ativo com ~ no meio (SERVE PARA QUANDO EU CLILCAR NO ELEMENTO 3 VAI ATE O 3 E NÃO MUDA MINHA ESTRELA ELA PASSA DE 2605 COR CHEIA PARA 2606 COR VAZIA*/
         
         color: #080801;

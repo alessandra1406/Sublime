@@ -124,25 +124,26 @@
     align-items: center;
     padding: 20px;
     }
-    .carrossel{
-        width: 100%;
-        overflow-x: auto;
-        margin: 50px auto;
-        display: flex;
-        gap: 3em;
-        scroll-behavior: smooth;
-        position: relative;
-        scroll-snap-type: x mandatory;
-        overflow: hidden;
-        height: fit-content;
-        transition: transform 0.5s ease-in-out;
-        filter: drop-shadow(0 0 1rem black);
-    }
+   /* Contêiner principal do carrossel */
+.carrossel {
+    width: 100%; /* Ocupa toda a largura da página */
+    overflow-x: auto; /* Permite arrastar para os lados (scroll horizontal) */
+    margin: 50px auto; /* Margem superior e inferior + centraliza */
+    display: flex; /* Coloca os cards um ao lado do outro */
+    gap: 3em; /* Espaço entre os cards */
+    scroll-behavior: smooth; /* Deixa o movimento suave ao deslizar */
+    position: relative; /* Permite botões personalizados se quiser */
+    scroll-snap-type: x mandatory; /* Faz o card “grudar” ao centro ao parar */
+    overflow: hidden; /* Oculta partes extras se necessário */
+    height: fit-content; /* Altura se ajusta ao conteúdo */
+    transition: transform 0.5s ease-in-out; /* Animação de transição suave */
+    filter: drop-shadow(0 0 1rem black); /* Sombra ao redor do carrossel */
+}
+   /* Remove a barra de rolagem no Chrome */
+.carrossel::-webkit-scrollbar {
+    display: none;
+}
 
-
-    .carrossel::-webkit-scrollbar{
-        display: none;
-    }
 
     .carrossel::scroll-button(right) {
         content: '⮕';
@@ -180,17 +181,19 @@
     opacity: 0.5;
     }
 
-    .card{
-        display: flex;
-        scroll-snap-align: start;
-        flex: 0 0 650px;
-        height: 340px;
-        background-color: var(--cor-secundaria);
-        text-align: center;
-        align-content: center;
-        align-items: center;
-       
-    }
+  
+/* Cada card individual dentro do carrossel */
+.card {
+    display: flex; /* Coloca imagem + texto alinhados */
+    scroll-snap-align: start; /* Faz o card parar alinhado no começo ao deslizar */
+    flex: 0 0 650px; /* Largura fixa do card (650px) */
+    height: 340px; /* Altura do card */
+    background-color: var(--cor-secundaria); /* Cor de fundo do card */
+    text-align: center; /* Centraliza o texto */
+    align-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza tudo dentro do card */
+}
+
     .TEXTO{
         margin: 0 15px 0;
         text-align: center;
@@ -203,14 +206,12 @@
         color: #797b7c;
         }
 
-.card figcaption{
-    background-color: var(--cor-secundaria);
-    padding: 5px;
-    color: white;
-    width: 100px;
-    /* position: absolute;
-    bottom: 0;
-    left: 0; */
+/* Estilo do texto (preço e nome do produto) */
+.card figcaption {
+    background-color: var(--cor-secundaria); /* Fundo preto */
+    padding: 5px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    width: 100px; /* Largura da legenda */
 }
 .container-inline img,
 .container-inline span{
